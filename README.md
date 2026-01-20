@@ -73,7 +73,7 @@ php artisan key:generate
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=sams_db
+DB_DATABASE=anta_ams_db
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -91,7 +91,7 @@ php artisan serve
 8. **Access the application**
    - Open `http://localhost:8000` in your browser
    - Login with default credentials:
-     - **Admin**: admin@example.com / password
+     - **Admin**: admin@attendance.com / password
      - **Teacher**: teacher@example.com / password
      - **Student**: student@example.com / password
 
@@ -150,7 +150,7 @@ APP_URL=http://localhost:8000
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=sams_db
+DB_DATABASE=anta_ams_db
 DB_USERNAME=root
 DB_PASSWORD=
 
@@ -170,7 +170,7 @@ After running seeders, you'll have these default users:
 
 | Role | Email | Password | Access |
 |------|-------|----------|---------|
-| Admin | admin@example.com | password | Full system access |
+| Admin | admin@attendance.com | password | Full system access |
 | Teacher | teacher@example.com | password | Teacher dashboard, attendance marking |
 | Student | student@example.com | password | Student dashboard, attendance view |
 
